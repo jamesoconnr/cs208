@@ -4,7 +4,7 @@
 - additive principle works with more than two events
 - multiplicative principle = if event A can occur in m ways and each possibility of A allows for n ways of event B, then "A and B" can occur in m · n ways
 - multiplicative principle also works with more than two events
-- in a set with not common elements $$|A \cup B| = |A| + |B|$$
+- in a set with no common elements $$|A \cup B| = |A| + |B|$$
 - $$A \times B = \{(x, y): x \in A \land y \in B\}$$ is a new set where x = A<sub>n</sub> and y = A<sub>n</sub>
 - ^ is a cartestian product
 - $$|A \times B|$$ is the union of disjoint sets 
