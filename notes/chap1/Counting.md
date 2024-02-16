@@ -1,0 +1,13 @@
+### 1.1 Additive and Multiplicative Principles
+- additive principle = if event A can occur in m ways and event B can occur in n disjoint wats, the "A or B" can occur in m + n ways
+- ^ events need to be disjoint (A and B cannot happen at the same time)
+- additive principle works with more than two events
+- multiplicative principle = if event A can occur in m ways and each possibility of A allows for n ways of event B, then "A and B" can occur in m · n ways
+- multiplicative principle also works with more than two events
+- in a set with not common elements $$|A \cup B| = |A| + |B|$$
+- $$A \times B = \{(x, y): x \in A \land y \in B\}$$ is a new set where x = A<sub>n</sub> and y = A<sub>n</sub>
+- ^ is a cartestian product
+- $$|A \times B|$$ is the union of disjoint sets 
+- multiplicative principle = given A and B, $$|A \times B| = |A| * |B|$$
+- if |A| = 10 and |B| = 8 and $$|A \cap B| = 6$$ then when we know 4 are in A and not in B
+- So $$|A \cup B| = |A| + |B| - |A \hat B|
