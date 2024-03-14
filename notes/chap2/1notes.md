@@ -1,0 +1,12 @@
+# 2.1
+- a sequence is a ordered list of numbers, like 1, 2,3 ...
+- sequence above can be written as $(a_n)_{n\in\mathbb{N}} \ or \ (a_n)_{n\geq0} \ or even the less specific \ (a_n)$
+- subscript n is are indicies (plural index)
+- A sequence is like a function
+- No number of initial terms is enough to ccertainly say the sequence
+- closed formula = finite operations on n, like $a_n = n^2$
+- recursive definition for a sequence = sequence definition with a recurse relation, meaning that that the defintion for a term relies on previous terms and an initial condition
+- $a_n = 2a_n-1 \ and \ a_0=1$ is a recursive definition
+- Recursive definitions are challenging but easier to find than closed formulas. Recursive definition can be used to find closed formulas. See [ex 2.1.3](https://discrete.openmathbooks.org/dmoi3/sec_seq_intro.html#:~:text=%F0%9F%94%97-,Example%202.1.3.,-Find)
+- You can sometimes find a closed formula by relating a sequence toa common\known sequence. [See list of a few common ones](https://discrete.openmathbooks.org/dmoi3/sec_seq_intro.html#:~:text=%F0%9F%94%97-,Common%20Sequences.,-1) and [heres a relevant example](https://discrete.openmathbooks.org/dmoi3/sec_seq_intro.html#:~:text=%F0%9F%94%97-,Example%202.1.4.,-Use%20the%20formulas)
+- The sequence of partial sums is basically the summation of a set up to n. $b_n \ (the partial sums sequence) \ = a_0 + a_1 + a_2 + ... + a_n$ with a being the set we are summing. You can also write this as $b_n = \sum_{k=0}^n {a_k}$
