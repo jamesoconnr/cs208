@@ -15,6 +15,13 @@
 
 	d. Very confusing. No discernable patter in the plain numbers or the difference between them. I will come back to this.
 3.
-	a. 0, 1, 3, 6, 10. $a_n = a_n-1 + n$ given $a_0 = 0$
+	a. 0, 1, 3, 6, 10. $a_n = a_{n-1} + n$ given $a_0 = 0$
 	b. 0, 1, 2, 3, 4. $a_n = n$
 	c. 1, 1, 2, 6, 24. $a_n = n!$
+4.
+	a. recursive is $a_n = a_{n-1} + 2$ with $a_0 = 1$. The closed formula is $a_n = 2n - 1$.
+
+	b. 4, 9, 16, 25 ... or recursively $b_n = b_{n-1} + a_n$ with $a_n = 2n - 1$. It looks like squares to me so the closed formula is $b_n = n^2$
+5.
+	a. 0, 1, 2, 4, 7, 12, 20, 33
+	b. Seemingly it is $F_{n+2}$
