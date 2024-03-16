@@ -46,9 +46,9 @@
 9. Ill start by writing out some of $a_n$ starting at $a_0$: $$ 10, 41, 187, 899 $$
 Now time to test it out on $a_3$, which when plugged in is $$7(41) - 10(10)$$ which does equal 187 or $a_3$. So the initial conditions needed are $a_0 = 10$ and $a_1 = 41$
 
-10.
+10. Ill start by writing out some of $a_n$ starting at $a_0$ just like in 9: $$ 0, -3, -21, -17 $$ Testing out $a_2$ with the recurrence relation is $7(-3) - 10(0)$ which is indeed equal to $-21$. Initial conditions needed are $a_0 = 0, a_1 = -3$
 
-11.
+11. First few terms are $1, 2, 3, 4$. I can count so I can see the formula is $a_n = n$
 
 12.
 
@@ -75,3 +75,17 @@ Now time to test it out on $a_3$, which when plugged in is $$7(41) - 10(10)$$ wh
 	d. $\dfrac{4}{3} * \dfrac{9}{8} * \dfrac{16}{15} * ... * \dfrac{10000}{9999}$
 
 	e. $2 * 5 * 8 * ... * 2+3n$
+
+15.
+
+16.
+
+17. if i dont put text here the latex doesnt work idk why
+	a. The longest string is $l = 11, k = 0$. The shortest is $l = 6, k = 5$.
+
+	b. There ${11 \choose 0}$ and ${6 \choose 5}$ of these, respectively. So we just fill in the blanks and get the sum by doing:
+	$${11 \choose 0}+{10 \choose 1}+{9 \choose 2}+{8 \choose 3}+{7 \choose 4}+{6 \choose 5} = 134$$
+
+	c. Well making this into a sequence, the first few terms, starting at $a_1$, are $$ 1, 2, 2, 3, 3, 4, 4$$ i see the pattern. A recursive formula is difficult to find here but I think it's $a_n = n - a_{n-2}$ with $a_1 = 1, a_2 = 2$
+
+	d. 
