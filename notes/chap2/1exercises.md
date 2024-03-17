@@ -1,4 +1,4 @@
-1.
+1. .
 
 	a. Everything is a square + 1 so we have $a_n = n^2 + 1$
 
@@ -7,7 +7,7 @@
 	c. These are triangular numbers +2 starting at 6, so its $a_n = \dfrac{(n+2)(n+3)}{2} + 2$
 
 	d. Its factorials - 1 and seemingly starting at 2. $a_n = (n+1)-1$ 
-2.
+2. .
 
 	a. This is a tough one. The between numbers doubles everytime, but writing this out would be recursive. The difference between triangular numbers also doubles everytime. Its just triangles numbers + 4 so $\dfrac{n(n+1)}{2} + 4$
 	
@@ -17,17 +17,19 @@
 
 	d. Very confusing. No discernable patter in the plain numbers or the difference between them. I will come back to this.
 
-3.
+3. .
 
 	a. 0, 1, 3, 6, 10. $a_n = a_{n-1} + n$ given $a_0 = 0$
+
 	b. 0, 1, 2, 3, 4. $a_n = n$
+
 	c. 1, 1, 2, 6, 24. $a_n = n!$
-4.
+4. .
 
 	a. recursive is $a_n = a_{n-1} + 2$ with $a_0 = 1$. The closed formula is $a_n = 2n - 1$.
 
 	b. 4, 9, 16, 25 ... or recursively $b_n = b_{n-1} + a_n$ with $a_n = 2n - 1$. It looks like squares to me so the closed formula is $b_n = n^2$
-5.
+5. .
 
 	a. 0, 1, 2, 4, 7, 12, 20, 33
 
@@ -52,7 +54,7 @@ Now time to test it out on $a_3$, which when plugged in is $$7(41) - 10(10)$$ wh
 
 12.
 
-13. if i dont put text here the latex doesnt work idk why
+13. .
 
 	a. $ \displaystyle\sum_{k=1}^n {2k} $
 
@@ -64,7 +66,7 @@ Now time to test it out on $a_3$, which when plugged in is $$7(41) - 10(10)$$ wh
 
 	e. $ \displaystyle\prod_{k=1}^{101} {\dfrac{k}{k+1}} $
 
-14. if i dont put text here the latex doesnt work idk why
+14. .
 
 	a. 7 + 11 + 15 + ... + 403
 
@@ -80,7 +82,8 @@ Now time to test it out on $a_3$, which when plugged in is $$7(41) - 10(10)$$ wh
 
 16.
 
-17. if i dont put text here the latex doesnt work idk why
+17. .
+	
 	a. The longest string is $l = 11, k = 0$. The shortest is $l = 6, k = 5$.
 
 	b. There ${11 \choose 0}$ and ${6 \choose 5}$ of these, respectively. So we just fill in the blanks and get the sum by doing:
