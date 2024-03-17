@@ -52,9 +52,9 @@ Now time to test it out on $a_3$, which when plugged in is $$7(41) - 10(10)$$ wh
 
 11. First few terms are $1, 2, 3, 4$. I can count so I can see the formula is $a_n = n$
 
-12.
+12. .
 
-13. .
+13. . just imagine the latex works and you see summations symbols and stuff
 
 	a. $ \displaystyle\sum_{k=1}^n {2k} $
 
