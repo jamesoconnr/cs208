@@ -94,7 +94,7 @@ Now time to test it out on $a_3$, which when plugged in is $$7(41) - 10(10)$$ wh
 
 	c. ***The other approach: Let l + k = n vary. How many strings have sum n = 1? How many have sum 2? And so on. Find and explain a recurrence relation for the sequence which gives the number of strings with sum n?***
 
-	Well making this into a sequence, the first few terms, starting at $a_1$, are 1, 2, 2, 3, 3, 4, 4. i see the pattern. A recursive formula is difficult to find here but I think it's $a_n = n - a_{n-2}$ with $a_1 = 1, a_2 = 2$
+	Well making this into a sequence, the first few terms, starting at $a_1$, are 1, 2, 3, 5, 8, 13, 21. i see the pattern. A recursive formula is difficult to find here but I think it's $a_n = a_{n-1} + a_n{n-2} $ with $a_1 = 1, a_2 = 2$
 
 	d. ***Describe what you have found above in terms of Pascal's Triangle. What pattern have you discovered?***
 
