@@ -90,11 +90,11 @@ Now time to test it out on $a_3$, which when plugged in is $$7(41) - 10(10)$$ wh
 
 	b. ***How many strings are there of each of these lengths. Use this to count the total number of strings (with sum 11)***
  
- 	There ${11 \choose 0}$ and ${6 \choose 5}$ of these, respectively. So we just fill in the blanks and get the sum by doing: $${11 \choose 0}+{10 \choose 1}+{9 \choose 2}+{8 \choose 3}+{7 \choose 4}+{6 \choose 5} = 134$$
+ 	There are ${11 \choose 0}$ and ${6 \choose 5}$ of these, respectively. So we just fill in the blanks and get the sum by doing: $${11 \choose 0}+{10 \choose 1}+{9 \choose 2}+{8 \choose 3}+{7 \choose 4}+{6 \choose 5} = 144$$
 
 	c. ***The other approach: Let l + k = n vary. How many strings have sum n = 1? How many have sum 2? And so on. Find and explain a recurrence relation for the sequence which gives the number of strings with sum n?***
 
-	Well making this into a sequence, the first few terms, starting at $a_1$, are 1, 2, 3, 5, 8, 13, 21. i see the pattern. A recursive formula is difficult to find here but I think it's $a_n = a_{n-1} + a_n{n-2} $ with $a_1 = 1, a_2 = 2$
+	Well making this into a sequence, the first few terms, starting at $a_1$, are 1, 2, 3, 5, 8, 13, 21. i see the pattern. A recursive formula is difficult to find here but I think it's $a_n = a_{n-1} + a_n{n-2}$ with $a_1 = 1, a_2 = 2$
 
 	d. ***Describe what you have found above in terms of Pascal's Triangle. What pattern have you discovered?***
 
