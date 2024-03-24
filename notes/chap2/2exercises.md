@@ -40,4 +40,13 @@
 
 7. TODO
 
-8. 
+8. .
+	a. So its asking what can be subtracted from 27 twice to get 1. $27-1=26$ so $\dfrac{26}{3}$ is our difference. $x = \dfrac{55}{3} \ and \ y = \dfrac{29}{3}$
+
+	b. With d being ratio we have $27*d^3=1$, $d^3=\dfrac{1}{27}$, $d=\dfrac{1}{3}$. $x = 9, y = 4$
+
+9. see 8, TODO
+
+10.
+
+11. The differences are $5, 8, 11, 14$, and we can see the difference increases by 3 every time. So we can express this as a sequence of partial sums, $a_n = 2 + 5 + 11 + 14 + ... + (2 + 3n)$. Reverse and add yada yada you get $\dfrac{(4+3n)(n+1)}{2}$
