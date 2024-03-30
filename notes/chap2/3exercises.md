@@ -19,7 +19,7 @@ and find that a = 1 and b = 0, so the the formula is $a_n = n^2 + n $. See noteb
 
 8. Starting at $a_0$ the first few terms are $4, 8, 14, 22, 32, 44, 58$. Diffs are $4, 6, 8, 10, 12, ...$ (increasing by two). Formula is $a_n-a_{n-1}=2n+2$
 
-9. Well I suppose that it is just $a_n-a_{n-1} = dn+d$, where d is the constant difference found at $\triangle^2$. I don't understand the answer, TODO.
+9. We know that $a_n = an^2+bn+c$ and that $a_{n-1}=a(n-1)^2+b(n-1)+c$. Note that $a_{n-1}$ distributed is $an^2-2an+a+bn-b+c$ To prove that quadratic sequences have arithmetic differences we need to find $a_n-a_{n-1} (and hope it is arithmetic!). Luckily if subtract that distributed $a_{n-1}$ from $a_n$ we get $2an-a+b$, which is arithmetic.
 
 10. diffs are $3, 4, 7, 11, 18$, seconds diffs are $1, 3, 4, 7$. Im going to stop here because i'm just getting the same numbers so its impossible.
 
