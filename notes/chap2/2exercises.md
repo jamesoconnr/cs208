@@ -34,18 +34,22 @@
 
 	c. $\dfrac{(1+6n+7)*n+2}{2}$
 
-5. Skipped because I did this type already
+5. diff is two every time, so formula is $a_n = 2n+5$. $521 = 2n+5$, $516=2n$, $n=258$. There are 259 terms, so ill do $\dfrac{(5+521)*259}{2} = 68117$
 
-6. See 5
+6. method used in 5 and others didn't work for me. Instead find a recursive relation, in this case $a_n = a_{n-1}*3$ and apply it to S (original sequence) to "shift" it over one to the right (i.e. $a_0=15$ now instead of $5$). Now simply subtract 3S from S to be left with -2S. All terms execept for first S and last of 3S cancel out, so you are left with $5-5*3^{21}=-2S$. We want S so we divide by -2 to get $S=\dfrac{-5+5*3^{21}}{2}$
 
-7. TODO
+7. This one is very confusing, why do the signs flop back and forth. Either way, we use the method shown in 6 and multiply everyting by $\dfrac{2}{3}$ for $\dfrac{2}{3}2$. Because of the alternating signs, we add it to $S$. $\dfrac{5}{3}S = 1+\dfrac{2^{31}}{3^{31}}$, divide by $\dfrac{5}{3}$ and get $S = \dfrac{1+\dfrac{2^{31}}{3^{31}}}{\dfrac{5}{3}}$
 
 8. .
 	a. So its asking what can be subtracted from 27 twice to get 1. $27-1=26$ so $\dfrac{26}{3}$ is our difference. $x = \dfrac{55}{3} \ and \ y = \dfrac{29}{3}$
 
 	b. With d being ratio we have $27*d^3=1$, $d^3=\dfrac{1}{27}$, $d=\dfrac{1}{3}$. $x = 9, y = 4$
 
-9. see 8, TODO
+9. .
+	
+	a. Well $5-32=27$ and $\dfrac{27}{3}=9$, so $d=0$. $x=14, y=23$
+
+	b. Our first term is 5 and we know that the last term times 3 of the ratio (r) must be the last term (32). So, mathematically, $5*r^3=32$, $r^3=\dfrac{32}{5}$, $r=\sqrt[3]{\dfrac{32}{5}}$. Im not going to calculate the actual answers but $x=5*\sqrt[3]{\dfrac{32}{5}}$, $x=5*(\sqrt[3]{\dfrac{32}{5}})^2$
 
 10.
 
