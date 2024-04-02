@@ -1,0 +1,1 @@
+1. I guess each term is its previous plus double that ones previous. So $a_n=a_n+2a_{n-1}$. Next terms are 171 and 341.
