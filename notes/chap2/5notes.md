@@ -18,7 +18,9 @@
     - When you break a bar, you are left with smaller chocolate bars. This act of reducing to smaller cases is what induction is all about. 
     - If we are trying to prove our conjecture (the first sub-bullet point) inductively, we don't know after we break $(k+1)$-square bar we will be left with $k$ squares, so we must assume our conjecture is right for all squares less than $k+1$
     - Our final proof is:
-    Statement: it takes $n-1$ breaks to reduce and n-square chocolate bar to single squares
-    Base Case: Consider $P(2)$. In one break ($n-1$) you have reduced the bar into single squares
-    Inductive case: Choose an arbitrary $n\geq2$ and assume $P(k)$ is true for all $k<n$. Consider an n-square bar. You break it in half and get two peices, a and b. You know $a+b=n$ and that $a<n$, $b<n$. So by our inductive hypothesis we know that both are reduced to single squares in $a-$ and $b-1$ breaks. So, including the original break, we can represent this as $$1+a-1+b-1$$ $$a+b-1$$ $$n-1$$ thus proving $P(n)$ is true.
-- So in strong induction you assume $P(k)$ is true for $k<n$, prove $P(n)$ is true, and then assume $P(n)$ is true for all $n>base\ case$
+    **Statement:** it takes $n-1$ breaks to reduce and n-square chocolate bar to single squares
+    
+    **Base Case:** Consider $P(2)$. In one break ($n-1$) you have reduced the bar into single squares
+    
+    **Inductive case:** Choose an arbitrary $n\geq2$ and assume $P(k)$ is true for all $k<n$. Consider an n-square bar. You break it in half and get two pieces, a and b. You know $a+b=n$ and that $a<n$, $b<n$. So by our inductive hypothesis we know that both are reduced to single squares in $a-$ and $b-1$ breaks. So, including the original break, we can represent this as $$1+a-1+b-1$$ $$a+b-1$$ $$n-1$$ thus proving $P(n)$ is true.
+- So in strong induction you assume $P(k)$ is true for $k<n$, prove $P(n)$ is true, and then assume $P(n)$ is true for all $n>$ base case (that last n is not the arbitrary n, it is all numbers)
