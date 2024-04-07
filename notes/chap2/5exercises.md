@@ -17,24 +17,54 @@ Inductive Case: Assume P(k) is true where k represents some natural numbers. So 
 $$=k^2+2k+1$$
 $$=(k+1)^2$$ 
 thus $P(k+1)$ is true.
-5. TODO
-6. TODO
+5. **Statement:** $P(n)$ is the statement that $F_0+F_2+F_4+...+F_{2n}=F_{2n+1}-1$ is true when n is a natural number.
+**Base Case:** $P(0)$ is $$F_0+F_{0}=F_{2(0)+1}-1$$ $$0=F_1-1$$ $$0=1-1$$ $$0=0$$
+**Inductive Case:** Assume $P(k)$, as in $F_0+F_2+F_4+...+F_{2k}=F_{2k+1}-1$, is true. We know to increase the index of the fibonacci number on the right by one, so to prove $P(k+1)$ we can can add $F_2k+2$. $$F_0+F_2+F_4+...+F_{2k}+F_{2k+2}=F_{2k+1}-1+F_{2k+2}$$ Now note that two sequential fibonacci numbers added is the next fibonacci number $$F_0+F_2+F_4+...+F_{2k}+F_{2k+2}=F_{2k+3}-1$$ now we can see that the right side has the last term on the left plus one just like $P(k)$, meaning this is true.
+
+6. **Statement:** $P(n)$ is the statement that $2^n<n!$ is true for all $n\geq4$
+**Base Case:** $P(4)$ is $$2^4<4!$$ $$16<14$$
+**Inductive Case:** Assume $P(k)$, as in $2^k<k!$, is true. We want to prove $P(k+1)$, or $2^{k+1}=(k+1)!$ To get $P(k+1)$ we can multiply $P(k)$ by 2 because for each n the left side doubles $$2^{k+1}<2*k!$$ I need to come back to this TODO. How does the 2 magically become a $(k+1)$?
+
 7. 
+
 8.
+
 9.
+
 10.
+
 11.
-12. TODO
-13. TODO
-14.
+
+12. There is no base case and ideally they would have written out $P(k+1)$ first.
+
+13. **Statement:** Let $P(n)$ be the statement that $n+3<n+7$ for all $n\in\mathbb{n}$. 
+**Base Case:** $P(0)$ is $$0+3<0+7$$ $$3<7$$
+**Inductive Case:** Assume $P(k)$, as in $k+3<k+7$ is true. We want to prove $P(k+1)$, or $(k+1)+3<(k+1)+7$. If we add 1 to both sides of $P(k)$ we get $$k+3+1<k+7+1$$ $$(k+1)+3<(k+1)+7$$ so $P(k+1)$ is true.
+
+14. It is clearly only true up to 99.
+
 15.
-16. TODO
+
+16.  There is no base case.
+
 17.
+
 18.
-19. TODO
+
+19. **Statement:** Let $P(n)$ be the statement that n, a positive integer, is either a power of 2 or can be written as the sum of two distinct powers of 2. 
+**Base Case:** $P(1) is $2^0$
+**Inductive Case:** Assume $P(k)$ is true for all $k < n$ with n being an arbitrary integer. If n is a power of 2, then we have proved our case. If not let $2^x$ be the largest power of 2 less than n. Now think about $n-2^x$. This number is smaller than both n and $2^x$. So then it is the sum of two distinct powers of two.
+
 20.
+
 21.
+
 22.
+
 23.
+
 24.
-25. TODO
+
+25. **Statement:** Let $P(n)$ be the statement that $log(a^n)=n*log(a)$ for all natural numbers greater than two.
+**Base Case:** $P(2)$ is $$log(a^2)=2log(a)$$ $$log(a*a)=2log(a)$$ $$log(a)+log(a)=2log(a)$$ $$2log(a)=2log(a)$$
+**Inductive Case:** Suppose $P(k)$, as in $log(a^k)=klog(a)$, is true. We must prove $P(k+1)$, or $log(a^{k+1})=(k+1)log(a)$. Well using the product rule I know I can get $a^{k+1}$ on the left side by adding $log(a)$. $$log(a^k)+log(a)=klog(a)+log(a)$$ $$log(a^{k+1})=(k+1)log(a)$$ meaning it is true.
