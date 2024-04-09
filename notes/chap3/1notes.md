@@ -43,3 +43,19 @@
 - Implications are equivalent to disjunctions, $P\implies Q = \neg P\lor Q$
 - Example 3.1.4:
     We know that implications are really disjunctions, so the left is $\neg (\neg P \lor Q)$ which distributes too $P \land \neg Q$
+- Example 3.1.5
+    ```
+    tg_cli.py "['p', 'q', 'r']" -p "['(p or q) => r', '(p=>r) or (q=>r)']" -i False
+    +-----+-----+-----+-----------------+--------------------+
+    |  p  |  q  |  r  |  (p or q) => r  |  (p=>r) or (q=>r)  |
+    |-----+-----+-----+-----------------+--------------------|
+    |  1  |  1  |  1  |        1        |         1          |
+    |  1  |  1  |  0  |        0        |         0          |
+    |  1  |  0  |  1  |        1        |         1          |
+    |  1  |  0  |  0  |        0        |         1          |
+    |  0  |  1  |  1  |        1        |         1          |
+    |  0  |  1  |  0  |        0        |         1          |
+    |  0  |  0  |  1  |        1        |         1          |
+    |  0  |  0  |  0  |        1        |         1          |
+    +-----+-----+-----+-----------------+--------------------+
+    ```
