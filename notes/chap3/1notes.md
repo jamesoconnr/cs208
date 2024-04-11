@@ -59,3 +59,7 @@
     |  0  |  0  |  0  |        1        |         1          |
     +-----+-----+-----+-----------------+--------------------+
     ```
+- Example 3.1.6:
+    I guess I could make a truth table but this would just make a scenario in which Q is always true.
+- Predicates are similar to propositions, but their truth value relies on the input
+- You cannot switch the order of quantifiers
