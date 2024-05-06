@@ -46,4 +46,4 @@
 
 8. I will prove by contrapositive. If n is even so is 5n. So $n=2k$ for some int k. $5n=10k$ so $5n=2(5k)$ therefore 5n is even
 
-9. I will prove by contradiction, meaning both a and b are odd. $a=2k+1, b=2j+1$. $$4k^2+4k+1+4j^2+4j+1=c^2$$ $$2(2k^2+2k+2j^2+2j+1)=c^2$$. So $(2k+1)^2+b^2=2m$ for some int m.$$b^2=2m-(2k+1)^2$$
+9. I will prove by contradiction, meaning both a and b are odd. $a=2k+1, b=2j+1$. $$4k^2+4k+1+4j^2+4j+1=c^2$$ $$2(2k^2+2k+2j^2+2j+1)=c^2$$. So $(2k+1)^2+b^2=2m$ for some int m. TODO
